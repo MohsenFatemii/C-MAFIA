@@ -1,2 +1,2 @@
-# C-MAFIA
-A Clustering Based Approximation algorithm for mining frequent itemsets
+# CL-MAX
+A Clustering-based Approximation algorithm for mining maximal frequent itemsets
