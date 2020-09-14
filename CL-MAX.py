@@ -102,10 +102,10 @@ class CL_MAX():
 
 
 if __name__ == '__main__':
-    name_of_dataset = 'mushroom'
-    min_support = 0.01
-    num_cluster = 3
-    rounding_threshold = 0.11
+    name_of_dataset = 'chess'
+    min_support = 0.9
+    num_cluster = 10
+    rounding_threshold = 0.9
 
     cl_max = CL_MAX(min_support, num_cluster, rounding_threshold)
     path = cl_max.find_path()
